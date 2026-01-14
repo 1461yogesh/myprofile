@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yogesh Kumar | Portfolio</title>
+
+<meta name="description" content="Yogesh Kumar Portfolio | ECE Student | IoT Engineer | Python Developer">
+<meta name="keywords" content="Yogesh Kumar, IoT, ECE, Python, Smart Home">
+<meta name="author" content="Yogesh Kumar">
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+<header>
+  <h1>Yogesh Kumar</h1>
+  <p>ECE Student | IoT Engineer | Python Developer</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="page">
+  <h2>Welcome</h2>
+  <p>This is my professional portfolio website.</p>
+</section>
+
+<button class="toggle" onclick="toggleMode()">🌙</button>
+
+<script src="main.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+</body>
+</html>
